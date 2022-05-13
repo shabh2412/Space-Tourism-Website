@@ -1,0 +1,30 @@
+body {
+    background-image: url('../destination/background-destination-desktop.jpg');
+}
+
+#destinations > ul {
+    display: flex;
+    list-style: none;
+    /* gap: 10px; */
+    justify-content: space-between;
+    padding-left: 0;;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    /* background-color: orange;
+    border: 1px solid red; */
+}
+
+#destinations > ul > li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#destinations > ul > li.active {
+    border-bottom: 2px solid white !important;
+    /* border: 1px solid green; */
+}
+
+#destinationContainer {
+    gap: 10px;
+    justify-content: space-evenly;
+}

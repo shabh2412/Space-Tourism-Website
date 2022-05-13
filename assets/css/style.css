@@ -7,6 +7,8 @@ body {
     background-image: url("../home/background-home-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-color: #0b0d17;
+    transition: all 0.5s ease-in-out; */
 }
 * {
     color: white;
@@ -53,6 +55,9 @@ p, .h1, .h2, .h3, .h4 {
 .d-flex {
     display: flex;
 }
+.gap-20 {
+    gap: 20px;
+}
 .align-items-center {
     align-items: center;
 }
@@ -73,6 +78,12 @@ p, .h1, .h2, .h3, .h4 {
 }
 .text-capitalize {
     text-transform: capitalize;
+}
+.text-white {
+    color: white !important;
+}
+.text-light-dark {
+    color: #353740;
 }
 .btn {
     border: 0;
@@ -112,6 +123,20 @@ p, .h1, .h2, .h3, .h4 {
 .mx-auto {
     margin: auto;
 }
+.mx-1 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mx-2 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.mx-3 {
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+}
 
 .mb-0 {
     margin-bottom: 0;
@@ -119,6 +144,14 @@ p, .h1, .h2, .h3, .h4 {
 
 .mt-0 {
     margin-top: 0;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: .25rem;
 }
 
 .mt-5 {
@@ -164,12 +197,23 @@ p, .h1, .h2, .h3, .h4 {
     font-weight: 400 !important;
 }
 
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
 .bf-regular {
     font-family: 'Bellefair', 'Roboto', sans-serif !important;
 }
 
 .roboto-regular {
     font-family: 'Roboto', sans-serif !important;
+}
+.barlow {
+    font-family: 'Barlow', sans-serif !important;
 }
 
 .fs-14 {
@@ -182,6 +226,14 @@ p, .h1, .h2, .h3, .h4 {
 
 .fs-18 {
     font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
 }
 
 .ls-1 {

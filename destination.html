@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/destination.css">
   
   <title>ST - Our Destinations</title>
 </head>
@@ -19,6 +20,37 @@
           <li><a href="crew.html"><span>02</span> crew</a></li>
           <li><a href="technology.html"><span>03</span> technology</a></li>
         </ul>
-      </nav>
+    </nav>
+    <div class="container p-5 w-80 mx-auto">
+        <p class="h5 text-uppercase text-white barlow fw-100 ls-1 fs-20">
+            <span class="text-light-dark fw-600 barlow mx-1">01</span>
+            pick your destination
+        </p>
+        <div class="container d-flex mx-auto p-5 mt-5" id="destinationContainer">
+            <div class="col">
+                <img src="" alt="" id="destinationImg">
+            </div>
+            <div class="col">
+                <div id="destinations">
+                    <ul></ul>
+                </div>
+                <h1 id="currentDestinationName"></h1>
+                <div id="description"></div>
+                <hr>
+                <div id="details" class="d-flex justify-content-start gap-20">
+                    <div id="avgDistance">
+                        <p class="h5">Average Distance</p>
+                        <p class="data"></p>
+                    </div>
+                    <div id="estTravelTime">
+                        <p class="h5">Est. Travel Time</p>
+                        <p class="data"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+<script src="./data.js"></script>
+<script src="./assets/js/destinations.js"></script>
