@@ -4,24 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
+  <link rel="stylesheet" href="./assets/css/style.css">
   
-  <title>Frontend Mentor | Space tourism website</title>
+  <title>ST - Visit the space in our Flight</title>
 </head>
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-
-  Explore
-
+  <nav>
+    <div><img src="./assets/shared/logo.svg" alt="logo"></div>
+    <hr>
+    <ul>
+      <li class="active"><a href="index.html"><span>00</span> Home</a></li>
+      <li><a href="destination.html"><span>01</span> destination</a></li>
+      <li><a href="crew.html"><span>02</span> crew</a></li>
+      <li><a href="technology.html"><span>03</span> technology</a></li>
+    </ul>
+  </nav>
+  
+  <div id="homeContainer" class="container-fluid w-80 mx-auto mt-10 p-5 d-flex align-items-center justify-content-evenly">
+    <div class="w-40">
+      <p class="h5 text-uppercase fw-200">So you want to travel to</p>
+      <p class="text-uppercase h1">space</p>
+      <p class="h5 fw-100 bf-regular fs-18 ta-justify ls-1">
+        Let’s face it; if you want to go to space, you might as well genuinely go to 
+        outer space and not hover kind of on the edge of it. Well sit back, and relax 
+        because we’ll give you a truly out of this world experience!        
+      </p>
+      <!-- <div id="message" class="mt-5">
+      </div> -->
+    </div>
+    <div class="w-40">
+      <div id="explore-button" class="btn rounded p-5 text-uppercase d-flex align-items-center justify-content-center">
+        <p class="text-dark fw-normal mb-0 mt-0 h5">Explore</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
