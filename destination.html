@@ -11,16 +11,34 @@
   <title>ST - Our Destinations</title>
 </head>
 <body>
-    <nav>
-        <div><img src="./assets/shared/logo.svg" alt="logo"></div>
-        <hr>
-        <ul>
-          <li><a href="index.html"><span>00</span> Home</a></li>
-          <li class="active"><a href="destination.html"><span>01</span> destination</a></li>
-          <li><a href="crew.html"><span>02</span> crew</a></li>
-          <li><a href="technology.html"><span>03</span> technology</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/shared/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container w-100 d-flex justify-content-end">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 rounded">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"><span>01</span> Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./destination.html"><span>02</span> Destination</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./crew.html"><span>03</span> Crew</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./technology.html"><span>04</span> Technology</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="container p-5 w-80 mx-auto">
         <p class="h5 text-uppercase text-white barlow fw-100 ls-1 fs-20">
             <span class="text-light-dark fw-600 barlow mx-1">01</span>
