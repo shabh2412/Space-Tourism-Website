@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/destination.css">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
   <title>ST - Our Destinations</title>
 </head>
 <body>
@@ -26,17 +26,17 @@
             <span class="text-light-dark fw-600 barlow mx-1">01</span>
             pick your destination
         </p>
-        <div class="container d-flex mx-auto p-5 mt-5" id="destinationContainer">
-            <div class="col">
+        <div class="container row mx-auto mt-5" id="destinationContainer">
+            <div class="col col-lg-7 col-sm-12">
                 <img src="" alt="" id="destinationImg">
             </div>
-            <div class="col">
+            <div class="col col-lg-4 col-sm-12">
                 <div id="destinations">
                     <ul></ul>
                 </div>
                 <h1 id="currentDestinationName"></h1>
                 <div id="description"></div>
-                <hr>
+                <div class="mt-5 hr-light mb-3"> </div>
                 <div id="details" class="d-flex justify-content-start gap-20">
                     <div id="avgDistance">
                         <p class="h5">Average Distance</p>
@@ -54,3 +54,5 @@
 </html>
 <script src="./data.js"></script>
 <script src="./assets/js/destinations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
