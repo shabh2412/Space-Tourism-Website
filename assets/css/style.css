@@ -158,8 +158,8 @@ nav > hr {
 
 #explore-button {
     font-size: 24px;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 0;
     transition: border 0.5s ease-in-out;
     box-sizing: content-box;
