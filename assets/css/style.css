@@ -154,6 +154,10 @@ nav > hr {
     z-index: 100;
 }
 
+#homeContainer {
+    bottom: 20%;
+}
+
 
 
 #explore-button {
