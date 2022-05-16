@@ -39,30 +39,29 @@
           </div>
         </div>
     </nav>
-    <div class="container p-5 w-80 mx-auto">
-        <p class="h5 text-uppercase text-white barlow fw-100 ls-1 fs-20">
-            <span class="text-light-dark fw-600 barlow mx-1">01</span>
-            pick your destination
-        </p>
-        <div class="container row mx-auto mt-5" id="destinationContainer">
-            <div class="col col-lg-7 col-sm-12">
-                <img src="" alt="" id="destinationImg">
+    <div class="container mx-auto">
+        <div class="row">
+            <p id="pageDetailHeading" class="h5 text-white"><span class="fw-bold text-light-dark">01</span> Pick Your Destination</p>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mx-auto">
+                <img id="destinationImg" src="" alt="" class="d-block w-75 mx-auto">
             </div>
-            <div class="col col-lg-4 col-sm-12">
-                <div id="destinations">
-                    <ul></ul>
+            <div class="col-lg-6 col-md-12 col-sm-12 text-center mx-auto">
+                <div id="destinations" class="mt-5">
+                    <ul class="mx-auto"></ul>
                 </div>
-                <h1 id="currentDestinationName"></h1>
-                <div id="description"></div>
-                <div class="mt-5 hr-light mb-3"> </div>
-                <div id="details" class="d-flex justify-content-start gap-20">
-                    <div id="avgDistance">
-                        <p class="h5">Average Distance</p>
-                        <p class="data"></p>
+                <div id="currentDestinationName" class="h1"></div>
+                <div id="description" class="h5 fs-18"></div>
+                <hr>
+                <div class="row">
+                    <div id="avgDistance" class="col-lg-6 col-md-6 col-sm-12">
+                        <p class="h5 fs-18 mx-auto">Avg. Distance</p>
+                        <p class="data h4 mx-auto"></p>
                     </div>
-                    <div id="estTravelTime">
-                        <p class="h5">Est. Travel Time</p>
-                        <p class="data"></p>
+                    <div id="estTravelTime" class="col-lg-6 col-md-6 col-sm-12">
+                        <p class="h5 fs-18 mx-auto">Est. Travel Time</p>
+                        <p class="data h4 mx-auto"></p>
                     </div>
                 </div>
             </div>

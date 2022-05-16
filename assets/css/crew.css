@@ -1,0 +1,24 @@
+#crewMembers > ul {
+    display: flex;
+    list-style: none;
+    /* gap: 10px; */
+    justify-content: start;
+    gap: 20px;
+    padding-left: 0;;
+    width: fit-content;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    /* background-color: orange;
+    border: 1px solid red; */
+}
+
+#crewMembers > ul > li {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #363841;
+}
+
+#crewMembers > ul > li.active {
+    background-color: white;
+}

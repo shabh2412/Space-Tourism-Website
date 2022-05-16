@@ -66,6 +66,10 @@ p, .h1, .h2, .h3, .h4 {
     font-size: 18px !important;
 }
 
+.fs-48 {
+    font-size: 48px !important;
+}
+
 .text-light-dark {
     color: #353740 !important;
 }
@@ -75,6 +79,10 @@ p, .h1, .h2, .h3, .h4 {
 }
 .fw-normal {
     font-weight: normal !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
 }
 
 .bf-regular {
@@ -195,5 +203,8 @@ nav > hr {
     }
     .h5 {
         font-size: 18px !important;
+    }
+    #pageDetailHeading {
+        text-align: center;
     }
 }
